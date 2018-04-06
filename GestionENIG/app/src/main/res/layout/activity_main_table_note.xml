@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.mia.gestionenig.MainActivityTableNote">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tomato"
+            android:text="ID" />
+
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tomato"
+            android:textStyle="italic"
+            android:text="Nom" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tomato"
+            android:textStyle="italic"
+            android:text="Prenom" />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tomato"
+            android:text="Note DC" />
+
+
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tomato"
+            android:text="Note DS" />
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/tomato"
+            android:text="Note TP" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="@color/gold"
+        android:dividerHeight="2px"/>
+</LinearLayout>

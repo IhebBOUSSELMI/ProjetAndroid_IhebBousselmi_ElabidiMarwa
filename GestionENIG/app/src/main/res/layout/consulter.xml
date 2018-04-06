@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:textColor="@color/tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note DC"/>
+
+    <TextView
+        android:id="@+id/tvnote_dc"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:textColor="@color/tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note DS"/>
+
+    <TextView
+        android:id="@+id/tvnote_ds"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:textColor="@color/tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note TP"/>
+    <TextView
+        android:id="@+id/tvnote_tp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text=""/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+    <TextView
+        android:textColor="@color/tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre d'Absence"/>
+    <TextView
+        android:id="@+id/tvnbr_abs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text=""
+        android:layout_gravity="center"/>
+        </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textColor="@color/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Votre ID : "/>
+
+        <TextView
+            android:id="@+id/idprof"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom : "/>
+
+        <TextView
+            android:id="@+id/nomprof"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prenom : "/>
+        <TextView
+            android:id="@+id/prenomprof"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de telephone : "/>
+        <TextView
+            android:id="@+id/phoneprof"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail : "/>
+        <TextView
+            android:id="@+id/mailprof"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matiere : "/>
+        <TextView
+            android:id="@+id/matprof"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

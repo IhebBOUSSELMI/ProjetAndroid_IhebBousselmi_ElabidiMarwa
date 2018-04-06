@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tvid"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:textColor="@color/tomato"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvnom"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/tomato"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvprenom"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/tomato"
+        android:text="TextView" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:background="@drawable/buttonstyle"
+        android:spinnerMode="dialog"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <NumberPicker
+            android:id="@+id/picker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="."/>
+        <NumberPicker
+            android:id="@+id/picker2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></NumberPicker>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnenregistrer"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enregistrer"/>
+
+</LinearLayout>
